@@ -120,6 +120,7 @@ namespace CardGames.GameLogic
 			}
 			//TODO: implement update to automatically slip cards!
 		}
+	
 
 		/// <summary>
 		/// Gets the player's score.
@@ -145,13 +146,22 @@ namespace CardGames.GameLogic
 				 _topCards [0] != null && _topCards [0].Rank == _topCards [1].Rank) // and its a match
 			{
 				_score[player]++;
-				//TODO: consider playing a sound here...
+				SwinGame.OpenAudio();
+                SwinGame.LoadSoundEffectNamed("Slap","snap.wav");
+                SwinGame.PlaySoundEffect("Slap");
+                SwinGame.Delay(2000);
+                SwinGame.CloseAudio();
 			}
-
+			else if ( player >= 0 && player < _score.Length)
+			{
+				_score[player]--;
+			}
+			
 			// stop the game...
 			_started = false;
 			_gameTimer.Stop();
 		}
+		
 	
 		#region Snap Game Unit Tests
 		#if DEBUG
