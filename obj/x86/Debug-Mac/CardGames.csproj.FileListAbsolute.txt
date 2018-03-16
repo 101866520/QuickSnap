@@ -28,3 +28,7 @@ D:\program\Git\QuickSnap\bin\Debug\nunit.framework.xml
 D:\program\Git\QuickSnap\obj\x86\Debug-Mac\CardGames.csprojResolveAssemblyReference.cache
 D:\program\Git\QuickSnap\obj\x86\Debug-Mac\SnapGame.exe
 D:\program\Git\QuickSnap\obj\x86\Debug-Mac\SnapGame.pdb
+C:\Users\admin\QuickSnap\obj\x86\Debug-Mac\CardGames.csprojResolveAssemblyReference.cache
+C:\Users\admin\QuickSnap\obj\x86\Debug-Mac\CardGames.csproj.CoreCompileInputs.cache
+C:\Users\admin\QuickSnap\obj\x86\Debug-Mac\SnapGame.exe
+C:\Users\admin\QuickSnap\obj\x86\Debug-Mac\SnapGame.pdb
